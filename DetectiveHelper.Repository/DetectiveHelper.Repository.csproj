@@ -13,9 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
-    <Folder Include="Rules\" />
-    <Folder Include="Interace\" />
+    <Folder Include="Interface\NovaPasta\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DetectiveHelper.Dto\DetectiveHelper.Dto.csproj" />
+    <ProjectReference Include="..\DetectiveHelper.Model\DetectiveHelper.Model.csproj" />
   </ItemGroup>
 
 </Project>

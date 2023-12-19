@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DetectiveHelper.Model.Internal;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,9 @@ namespace DetectiveHelper.Repository.DbContexts
          : base(options)
         {
         }
+
+        public DbSet<UserModel> Users { get; set; }
+
+
     }
 }

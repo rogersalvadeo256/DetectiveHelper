@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interace\" />
-    <Folder Include="Rules\" />
+    <ProjectReference Include="..\DetectiveHelper.Business\DetectiveHelper.Business.csproj" />
+    <ProjectReference Include="..\DetectiveHelper.Dto\DetectiveHelper.Dto.csproj" />
   </ItemGroup>
 
 </Project>
