@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectiveHelper.Api", "DetectiveHelper.Api\DetectiveHelper.Api.csproj", "{71182262-FAB4-4A10-B916-B57F03663F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveHelper.Facade", "DetectiveHelper.Business\DetectiveHelper.Facade.csproj", "{37687AF5-92E1-4635-8A68-259C6C78C152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveHelper.Business", "DetectiveHelper.Business\DetectiveHelper.Business.csproj", "{7BA71705-C736-4F00-B2D4-1DA71FE3CB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveHelper.Dto", "DetectiveHelper.Dto\DetectiveHelper.Dto.csproj", "{B6AAF952-E97F-4CD4-836F-0994C59C4A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveHelper.Model", "DetectiveHelper.Model\DetectiveHelper.Model.csproj", "{46502F18-1AE4-49ED-903A-CE703336826C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveHelper.Repository", "DetectiveHelper.Repository\DetectiveHelper.Repository.csproj", "{4F008472-7C26-46C5-BAB7-0123860DA57D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71182262-FAB4-4A10-B916-B57F03663F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71182262-FAB4-4A10-B916-B57F03663F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71182262-FAB4-4A10-B916-B57F03663F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71182262-FAB4-4A10-B916-B57F03663F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37687AF5-92E1-4635-8A68-259C6C78C152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37687AF5-92E1-4635-8A68-259C6C78C152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37687AF5-92E1-4635-8A68-259C6C78C152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37687AF5-92E1-4635-8A68-259C6C78C152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA71705-C736-4F00-B2D4-1DA71FE3CB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA71705-C736-4F00-B2D4-1DA71FE3CB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA71705-C736-4F00-B2D4-1DA71FE3CB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA71705-C736-4F00-B2D4-1DA71FE3CB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AAF952-E97F-4CD4-836F-0994C59C4A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AAF952-E97F-4CD4-836F-0994C59C4A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AAF952-E97F-4CD4-836F-0994C59C4A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AAF952-E97F-4CD4-836F-0994C59C4A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46502F18-1AE4-49ED-903A-CE703336826C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46502F18-1AE4-49ED-903A-CE703336826C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46502F18-1AE4-49ED-903A-CE703336826C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46502F18-1AE4-49ED-903A-CE703336826C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F008472-7C26-46C5-BAB7-0123860DA57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F008472-7C26-46C5-BAB7-0123860DA57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F008472-7C26-46C5-BAB7-0123860DA57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F008472-7C26-46C5-BAB7-0123860DA57D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C3B8B73-D98B-4FCE-BD52-6C3C81AD33F1}
+	EndGlobalSection
+EndGlobal
